@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f7e3528-2e96-4622-a2c1-665de4243f69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bootJarMainClassName" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bootRunMainClassName" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/KalahApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/controller/GameController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/Board$BoardBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/Board.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/Game$GameBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/GameMoveDtoBuilder$GameMoveDtoBuilderBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/GameMoveDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/GameResponseDto$GameResponseDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/GameResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/Player$PlayerBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/enums/GameStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/enums/PlayerCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/repository/BoardRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/repository/GameRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/repository/PlayerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/service/BoardService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/service/ComputerPlayerScheduler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/service/GameService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/service/GameServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/service/GameServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/service/KalahGamePlayFacade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/service/PlayerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/util/ListToMapTransformerFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/util/ResponseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/game/kalah/service/BoardServiceTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/game/kalah/service/BoardServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/game/kalah/service/ComputerPlayerSchedulerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/game/kalah/service/GameServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/game/kalah/service/KalahGamePlayFacadeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/game/kalah/service/PlayerServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/game/kalah/utils/GameUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/kalah-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.game.kalah.service.BoardServiceTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.game.kalah.service.ComputerPlayerSchedulerTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.game.kalah.service.GameServiceImplTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.game.kalah.service.KalahGamePlayFacadeTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.game.kalah.service.PlayerServiceTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.game.kalah.service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.game.kalah.service.BoardServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.game.kalah.service.ComputerPlayerSchedulerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.game.kalah.service.GameServiceImplTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.game.kalah.service.KalahGamePlayFacadeTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.game.kalah.service.PlayerServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/GamePlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/design.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/KalahApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/controller/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/domain/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/domain/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/domain/GameMoveDtoBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/domain/GameResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/domain/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/domain/enums/GameStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/domain/enums/PlayerCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/repository/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/repository/GameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/repository/PlayerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/service/ComputerPlayerScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/service/GameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/service/GameServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/service/KalahGamePlayFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/service/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/util/ListToMapTransformerFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/util/ResponseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/game/kalah/service/BoardServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/game/kalah/service/ComputerPlayerSchedulerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/game/kalah/service/GameServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/game/kalah/service/KalahGamePlayFacadeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/game/kalah/service/PlayerServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/game/kalah/utils/GameUtils.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kalah" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kalah" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kalah" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1m7yZikSdmDaRtILjXVOx93C1pc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Issue.Navigation" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.KalahApplication">
+    <configuration name="KalahApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.game.kalah.KalahApplication" />
+      <module name="kalah.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.game.kalah.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kalah [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.kalah [build]" />
+        <item itemvalue="Application.KalahApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f7e3528-2e96-4622-a2c1-665de4243f69" name="Default Changelist" comment="" />
+      <created>1608858980507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608858980507</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom" timestamp="1608859236195">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1608859236195" />
+    <state width="1398" height="200" key="GridCell.Tab.0.center" timestamp="1608859236194">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="200" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1608859236194" />
+    <state width="1398" height="200" key="GridCell.Tab.0.left" timestamp="1608859236194">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="200" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1608859236194" />
+    <state width="1398" height="200" key="GridCell.Tab.0.right" timestamp="1608859236195">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="200" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1608859236195" />
+  </component>
+</project>

@@ -1,0 +1,51 @@
+plugins {
+	id 'org.springframework.boot' version '2.4.1'
+	id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+	id 'java'
+}
+
+group = 'com.game'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework:spring-tx:5.3.2'
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.2'
+	implementation 'com.google.guava:guava:23.0'
+	compileOnly 'org.projectlombok:lombok'
+	testCompile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+	implementation 'org.springframework.boot:spring-boot-starter-log4j2'
+	runtimeOnly 'com.h2database:h2'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
+
+	testCompile 'org.mockito:mockito-core:2.21.+'
+	testCompile 'org.mockito:mockito-junit-jupiter:2.22.0'
+	testCompile 'org.junit.platform:junit-platform-runner:1.7.0'
+	testCompile 'org.junit.vintage:junit-vintage-engine:5.7.0'
+
+}
+configurations {
+	all {
+		exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+	}
+}
+
+test {
+	useJUnitPlatform()
+}

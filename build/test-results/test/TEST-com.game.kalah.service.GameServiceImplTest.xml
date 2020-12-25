@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.game.kalah.service.GameServiceImplTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-12-25T01:17:11" hostname="aakash" time="0.575">
+  <properties/>
+  <testcase name="verifyRepoCallCount_WhenNewGameIsCreated()" classname="com.game.kalah.service.GameServiceImplTest" time="0.548"/>
+  <testcase name="verifyExceptionIsThrown_WhenPlayerMakesMoveOutOfTurn()" classname="com.game.kalah.service.GameServiceImplTest" time="0.014"/>
+  <testcase name="testGameStatusUpdatedAToWAITING_FOR_COMPUTER_MOVE_AfterHumanMove()" classname="com.game.kalah.service.GameServiceImplTest" time="0.01"/>
+  <system-out><![CDATA[03:17:11.945 [Test worker] INFO com.game.kalah.service.GameServiceImpl - Making a move from pit number 2 for game 1
+03:17:11.955 [Test worker] INFO com.game.kalah.service.GameServiceImpl - Making a move from pit number 2 for game 1
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/aakashkumar/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/aakashkumar/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j-impl/2.13.3/7cca27a921a18645139cf651c04b83b1a19cfd76/log4j-slf4j-impl-2.13.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+]]></system-err>
+</testsuite>

@@ -1,0 +1,45 @@
+@startuml
+User -> GameController: create game/ make move
+class GameController {
+    createGame()
+    makeMove(gameId, pitNumber, PlayerCategory: HUMAN)
+}
+
+interface GameService{
+    createGame()
+    makeMove(gameId, pitNumber, PlayerCategory)
+}
+class GameServiceImpl {
+    totalPits
+    initialStonesPerPit
+    nonHousePitPerPlayer
+    numberOfPlayersPerGame
+    Game createGame()
+    Game makeMove(gameId, pitNumber, PlayerCategory)
+}
+class KalahGamePlayFacade {
+    isGameOverAfterMove(GameMoveDtoBuilder)
+}
+
+class ResponseMapper {
+GameResponseDto mapResponse(Game)
+}
+
+class ComputerPlayerScheduler {
+    computerMove(gameId, pitNumber, PlayerCategory: COMPUTER)
+}
+class Game {
+    Baord
+    List<Player>
+    GameStatus
+}
+
+GameController --> GameService:1
+GameService <|-- GameServiceImpl
+GameServiceImpl --> KalahGamePlayFacade:2
+GameService --> GameController:3
+GameServiceImpl --> Game: creates new/\nloads existing game
+GameController --> ResponseMapper:4
+ResponseMapper --> User:5
+ComputerPlayerScheduler --> GameService:6
+@enduml
