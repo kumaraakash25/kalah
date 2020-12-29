@@ -5,7 +5,6 @@ import lombok.*;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -15,7 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @RequiredArgsConstructor
-public class Game implements Serializable {
+public class Game {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long gameId;

@@ -8,9 +8,9 @@ import java.util.Map;
 
 @Data
 @Builder
-@JsonInclude(JsonInclude.Include.NON_NULL)
 public class GameResponseDto {
     private Long id;
     private String gameUrl;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     Map<Integer, Integer> pitStatus;
 }

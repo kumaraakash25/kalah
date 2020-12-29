@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.game.kalah.service.BoardServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-25T01:17:11" hostname="aakash" time="0.145">
-  <properties/>
-  <testcase name="initialiseBoard()" classname="com.game.kalah.service.BoardServiceTest" time="0.145"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
