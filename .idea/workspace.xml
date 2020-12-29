@@ -2,88 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430978da-4c23-443f-94c6-bb1bfe677066" name="Adding spring security" comment="Removing not required Serialization and adding gitignore file">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bootJarMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bootRunMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/KalahApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/Board$BoardBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/Board.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/Game$GameBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/GameMoveDtoBuilder$GameMoveDtoBuilderBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/GameMoveDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/GameResponseDto$GameResponseDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/GameResponseDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/Player$PlayerBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/enums/GameStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/domain/enums/PlayerCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/repository/BoardRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/repository/GameRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/repository/PlayerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/service/BoardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/service/ComputerPlayerScheduler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/service/GameService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/service/GameServiceImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/service/GameServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/service/KalahGamePlayFacade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/service/PlayerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/util/ListToMapTransformerFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/util/ResponseMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/game/kalah/service/BoardServiceTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/game/kalah/service/BoardServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/game/kalah/service/ComputerPlayerSchedulerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/game/kalah/service/GameServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/game/kalah/service/KalahGamePlayFacadeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/game/kalah/service/PlayerServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/game/kalah/utils/GameUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/kalah-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.game.kalah.service.BoardServiceTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.game.kalah.service.ComputerPlayerSchedulerTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.game.kalah.service.GameServiceImplTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.game.kalah.service.KalahGamePlayFacadeTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.game.kalah.service.PlayerServiceTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.game.kalah.service.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.game.kalah.service.BoardServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.game.kalah.service.ComputerPlayerSchedulerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.game.kalah.service.GameServiceImplTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.game.kalah.service.KalahGamePlayFacadeTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.game.kalah.service.PlayerServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/kalah/domain/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/domain/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/kalah/domain/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/domain/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/kalah/domain/GameResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/domain/GameResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/kalah/domain/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/domain/Player.java" afterDir="false" />
-    </list>
-    <list id="9f7e3528-2e96-4622-a2c1-665de4243f69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/game/kalah/controller/GameController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/kalah/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/kalah/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +89,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Issue.Navigation" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Application.KalahApplication">
+  <component name="RunManager" selected="Gradle.kalah [clean]">
     <configuration name="KalahApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.game.kalah.KalahApplication" />
       <module name="kalah.main" />
@@ -257,7 +187,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9f7e3528-2e96-4622-a2c1-665de4243f69" name="Default Changelist" comment="" />
+      <changelist id="" name="Default Changelist" comment="" />
       <changelist id="430978da-4c23-443f-94c6-bb1bfe677066" name="Adding spring security" comment="Adding spring security" />
       <created>1608858980507</created>
       <option name="number" value="Default" />
@@ -285,40 +215,59 @@
       <option name="project" value="LOCAL" />
       <updated>1609024309833</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removing not required Serialization and adding gitignore file">
+      <created>1609281650235</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609281650235</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Removing not required Serialization and adding gitignore file">
+      <created>1609281779120</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609281779120</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Adding spring security" />
     <MESSAGE value="Adding spring security auth and roles based filtering" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding spring security auth and roles based filtering" />
+    <MESSAGE value="Removing not required Serialization and adding gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing not required Serialization and adding gitignore file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="306" y="25" width="828" height="790" key="CommitChangelistDialog2" timestamp="1609281572734">
+    <state x="406" y="227" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609282283667">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state x="306" y="25" width="828" height="790" key="CommitChangelistDialog2/0.25.1440.790@0.25.1440.790" timestamp="1609281572734" />
-    <state x="100" y="125" width="1240" height="590" key="DiffContextDialog" timestamp="1609281433097">
+    <state x="406" y="227" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.790@0.25.1440.790" timestamp="1609282283667" />
+    <state x="306" y="25" width="828" height="790" key="CommitChangelistDialog2" timestamp="1609281778940">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state x="100" y="125" width="1240" height="590" key="DiffContextDialog/0.25.1440.790@0.25.1440.790" timestamp="1609281433097" />
-    <state width="1398" height="200" key="GridCell.Tab.0.bottom" timestamp="1609280981376">
+    <state x="306" y="25" width="828" height="790" key="CommitChangelistDialog2/0.25.1440.790@0.25.1440.790" timestamp="1609281778940" />
+    <state x="100" y="125" width="1240" height="590" key="DiffContextDialog" timestamp="1609281664731">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1609280981376" />
-    <state width="1398" height="200" key="GridCell.Tab.0.center" timestamp="1609280981375">
+    <state x="100" y="125" width="1240" height="590" key="DiffContextDialog/0.25.1440.790@0.25.1440.790" timestamp="1609281664731" />
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom" timestamp="1609282267847">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1609280981375" />
-    <state width="1398" height="200" key="GridCell.Tab.0.left" timestamp="1609280981375">
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1609282267847" />
+    <state width="1398" height="200" key="GridCell.Tab.0.center" timestamp="1609282267846">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1609280981375" />
-    <state width="1398" height="200" key="GridCell.Tab.0.right" timestamp="1609280981376">
+    <state width="1398" height="200" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1609282267846" />
+    <state width="1398" height="200" key="GridCell.Tab.0.left" timestamp="1609282267845">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1609280981376" />
+    <state width="1398" height="200" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1609282267845" />
+    <state width="1398" height="200" key="GridCell.Tab.0.right" timestamp="1609282267847">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="200" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1609282267847" />
     <state width="1398" height="248" key="GridCell.Tab.1.bottom" timestamp="1609280977366">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
@@ -343,10 +292,10 @@
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state x="558" y="293" key="VCS.EditChangelistDialog/0.25.1440.790@0.25.1440.790" timestamp="1609017549519" />
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1609024315720">
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1609281789411">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.25.1440.790@0.25.1440.790" timestamp="1609024315720" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.25.1440.790@0.25.1440.790" timestamp="1609281789411" />
     <state x="397" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1608900397555">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
